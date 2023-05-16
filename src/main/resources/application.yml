@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      name: service-discovery
+  config:
+    import: configserver:http://localhost:8888
